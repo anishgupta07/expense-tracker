@@ -44,7 +44,7 @@ fun ExpenseCard(
                 .padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Icon with background
+
             Box(
                 modifier = Modifier
                     .size(48.dp)
@@ -61,11 +61,9 @@ fun ExpenseCard(
 
             Spacer(modifier = Modifier.width(12.dp))
 
-            // Content column
             Column(
                 modifier = Modifier.weight(1f)
             ) {
-                // Title and Time row
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
@@ -88,7 +86,6 @@ fun ExpenseCard(
 
                 Spacer(modifier = Modifier.height(6.dp))
 
-                // Category and Amount row
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
