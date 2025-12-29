@@ -54,7 +54,7 @@ fun MainScreen() {
                 CustomTopBar(title = title)
             } else if (currentRoute == "add_expense") {
                 TopAppBar(
-                    title = { Text("Add Transaction", color = Color.White) },
+                    title = { Text("Add Expense", color = Color.White) },
                     navigationIcon = {
                         IconButton(onClick = { navController.popBackStack() }) {
                             Icon(
